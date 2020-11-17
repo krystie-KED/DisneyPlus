@@ -1,0 +1,308 @@
+/*---------FONT--------*/
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/Avenir-Roman-12.woff") format("woff");
+   }
+
+
+/*---------GENERAL--------*/
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../assets/olp_hero_desktop_UKI_FR.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Avenir';
+    background-color: #040714;
+    color: #F9F9F9;
+    width: 100%;
+    padding: 0px 36px;
+}
+
+section{
+    margin-top: 5%;
+}
+
+
+
+
+/*    <!--FIRST ELEMENT : HEADER--> */
+header{
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_header{
+    width: 7%;
+    margin-top: 15px;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav li{
+    list-style-type: none;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+header .nav{
+    border: 1px solid #F1F1F1;
+    padding: 8px 16px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f9f9f9;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    
+}
+
+header #blue{
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    background: #0072D2;
+    color: #f9f9f9;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+
+header .nav:hover{
+    background: #F9F9F9;
+    color: black;
+}
+header #blue:hover{
+    background: #0483ee;
+    color: #F9F9F9;
+}
+
+/* menu sticky*/
+.nav-is-stuck .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #040714;
+    animation: stickAnim .3s;
+    -webkit-animation: stickAnim .3s;
+}
+
+
+ 
+@keyframes stickAnim {
+	0% {
+		transform: translateY(-86px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+    /*button*/
+    .visible{
+        opacity: 1;
+    }
+    .hidden{
+        opacity: 0;
+    }
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*    <!--FIRST ELEMENT : CONTENT--> */
+.firstBloc{
+    margin-top: 8%;
+}
+
+.firstBloc .logo_header{
+    width: 13%;
+}
+
+h1{
+    margin-top: 15px;
+    font-size: 2.2em;
+    font-weight: normal;
+}
+
+.firstBloc article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article div{
+    margin-right: 3%;
+}
+
+h3{
+    font-weight: normal;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+h3 span{
+    font-size: 1.8em;
+}
+article {
+    align-items: flex-end;
+}
+
+div p{
+    margin-top: 10px;
+    opacity: .7;
+}
+
+#trait{
+    display: none;
+}
+div button{
+    margin-top: 15px;
+    background:#0072D2;
+    color: #f9f9f9;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    width: 340px;
+    padding: 18px;
+    border: transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+div  button:hover{
+    background :#0483ee;
+}
+
+.condition{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 0.6em;
+    opacity: .7;
+}
+
+.franchise_logo{
+    margin-top: 60px ;
+}
+.franchise_logo img{
+    width: 55%;
+}
+
+.fleche_bas{
+    display: none;
+}
+
+
+/* <!--TOUT LES ELEMENTS IMAGES TEXTES QUI SUIVENT --> */
+.description{
+    display: flex;
+    height: 500px;
+    font-weight: normal;
+    align-items: center;
+
+}
+
+.description figcaption{
+    width: 50%;
+}
+.description div{
+    width: 50%;
+}
+.description img{
+    width: 100%;
+}
+
+.description h2{
+    font-size: 36px;
+    font-weight: normal;
+    width: 90%;
+}
+
+.description p {
+    font-size: 18px;
+    width: 90%;
+}
+
+
+/* <!-- SECTION DEVICE --> */
+
+.device h2{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.device div{
+    display: flex;
+}
+
+.device article{
+    width: 25%;
+}
+.device img{
+    width: 100%;
+}
+
+.device h3,ul{
+    text-align: center;
+    list-style: none;
+}
+.device article h3{
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 10%;
+}
+
+.device li{
+opacity: .7;
+margin: 5px;
+}
+
+
+/* <!--FOOTER --> */
+footer {
+    margin-top: 8%;
+}
+footer figcaption{
+text-align: center;
+}
+footer figcaption img{
+    width: 5%;
+    margin-bottom: 1.5%;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    opacity: .7;
+    font-size: 0.8em;
+    flex-wrap: wrap;
+}
+
+footer li{
+    margin: 0.8%;
+}
+footer li a:hover{
+    color: red;
+}
+footer p{
+    opacity: .7;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0.7%;
+}

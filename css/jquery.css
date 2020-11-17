@@ -1,0 +1,183 @@
+/*------------------PETITE TABLETTE---------------*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        background-image: url('../assets/olp_hero_mobile_UKI_FR.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-family: 'Avenir';
+        background-color: #040714;
+        color: #F9F9F9;
+        width: 100%;
+        padding: 0px 36px;
+    }
+    
+
+    header .nav{
+        border: none;
+        padding: 8px 16px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        background: transparent;
+        color: #f9f9f9;
+        border-radius: 5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -ms-border-radius:5px;
+        -o-border-radius:5px;
+        
+    }
+
+    header #blue{
+        
+    }
+
+    .desktop_button{
+        display: none;
+    }
+
+    .mobile_button button{
+        z-index: 4;
+        position: fixed;
+        left: 30%;
+        top: 80%;
+        width: 200px;
+        height: 50px;
+    }
+
+
+/*----------------------------------------------------------*/
+    .firstBloc{
+        margin-top: 30%;
+    }
+    .firstBloc .logo_header{
+        width: 30%;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .firstBloc article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    h3{
+        font-weight: normal;
+        margin-top: 10px;
+        font-size: 0.8em;
+    }
+    div p{
+        margin-top: 7px;
+        opacity: .7;
+        font-size: 0.8em;
+    }
+    div button{
+        margin-top: 15px;
+        background:#0072D2;
+        color: #f9f9f9;
+        font-size: 1em;
+        letter-spacing: 2px;
+        width: 340px;
+        padding: 18px;
+        border: transparent;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    
+    div  button:hover{
+        background :#0072D2;
+    }
+
+    article #trait{
+        display: block;
+        margin: 4%;
+        border-top: 1px solid #F9F9F9;
+        opacity: .7;
+        width: 350px;
+    }
+    .franchise_logo{
+        display: none;   
+    }
+
+    .fleche_bas{
+        margin-left: 45%;
+        display: inline-block;
+        margin-top: 10%;
+    }
+    .fleche_bas img{
+        width: 20px;
+}
+
+    .description{
+
+        margin-top: 20%;
+        display: inherit;
+        height: 500px;
+        font-weight: normal;
+        align-items: center;
+
+    
+    }
+    .description figcaption{
+        width: 100%;
+    }
+    .description div{
+        width: 100%;
+    }
+    .description img{
+        width: 100%;
+    }
+    .description h2{
+        text-align: center;
+        font-size: 25px;
+        font-weight: normal;
+        width: 90%;
+    }
+    .description p {
+        font-size: 14px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .device{
+        margin-top: 10%;
+
+    }
+    .device div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .device article{
+        width: 50%;
+    }
+
+    footer figcaption img{
+        width: 15%;
+        margin-bottom: 1.5%;
+    }
+
+    footer{
+        margin-bottom: 30% ;
+    }
+
+}
+
+
+
+/*------------------SMARTPHONE---------------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {}
